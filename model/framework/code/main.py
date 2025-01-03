@@ -31,7 +31,7 @@ with open(input_file, "r") as f:
 # run model
 outputs = erg_desc(smiles_list)
 
-#check input and output have the same lenght
+#check input and output have the same length
 input_len = len(smiles_list)
 output_len = len(outputs)
 assert input_len == output_len
@@ -40,6 +40,6 @@ assert input_len == output_len
 # write output in a .csv file
 with open(output_file, "w") as f:
     writer = csv.writer(f)
-    writer.writerow(["erg-{}".format(i) for i in range(len(outputs[0]))])  # header
+    writer.writerow(["dimension_{0}".format(str(i).zfill(3)) for i in range(len(outputs[0]))])  # header
     for o in outputs:
         writer.writerow(o)
