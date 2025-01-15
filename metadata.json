@@ -16,7 +16,7 @@
         "Descriptor"
     ],
     "Output Type": [
-        "Integer"
+        "Float"
     ],
     "Output Shape": "List",
     "Interpretation": "Vector representing SMILES",
