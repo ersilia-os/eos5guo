@@ -2,44 +2,87 @@
 
 The Extended Reduced Graph (ErG) approach uses the description of pharmacophore nodes to encode molecular properties, with the goal of correctly describing pharmacophoric properties, size and shape of molecules. It was benchmarked against Daylight fingerprints and outperformed them in 10 out of 11 cases. ErG descriptors are well suited for scaffold hopping approaches.
 
-## Identifiers
+This model was incorporated on 2024-03-06.
 
-* EOS model ID: `eos5guo`
-* Slug: `erg-descs`
+## Information
+### Identifiers
+- **Ersilia Identifier:** `eos5guo`
+- **Slug:** `erg-fingerprints`
 
-## Characteristics
+### Domain
+- **Task:** `Representation`
+- **Subtask:** `Featurization`
+- **Biomedical Area:** `Any`
+- **Target Organism:** `Not Applicable`
+- **Tags:** `Descriptor`, `Fingerprint`
 
-* Input: `Compound`
-* Input Shape: `Single`
-* Task: `Representation`
-* Output: `Descriptor`
-* Output Type: `Integer`
-* Output Shape: `List`
-* Interpretation: Vector representing SMILES
+### Input
+- **Input:** `Compound`
+- **Input Dimension:** `1`
 
-## References
+### Output
+- **Output Dimension:** `315`
+- **Output Consistency:** `Fixed`
+- **Interpretation:** Vector representing ErG fingerprint values
 
-* [Publication](https://pubs.acs.org/doi/10.1021/ci050457y)
-* [Source Code](https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html)
-* Ersilia contributor: [GemmaTuron](https://github.com/GemmaTuron)
+Below are the **Output Columns** of the model:
+| Name | Type | Direction | Description |
+|------|------|-----------|-------------|
+| dim_000 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 0 |
+| dim_001 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 1 |
+| dim_002 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 2 |
+| dim_003 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 3 |
+| dim_004 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 4 |
+| dim_005 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 5 |
+| dim_006 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 6 |
+| dim_007 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 7 |
+| dim_008 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 8 |
+| dim_009 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 9 |
 
-## Ersilia model URLs
-* [GitHub](https://github.com/ersilia-os/eos5guo)
-* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5guo.zip)
-* [DockerHub](https://hub.docker.com/r/ersiliaos/eos5guo) (AMD64, ARM64)
+_10 of 315 columns are shown_
+### Source and Deployment
+- **Source:** `Local`
+- **Source Type:** `External`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5guo](https://hub.docker.com/r/ersiliaos/eos5guo)
+- **Docker Architecture:** `AMD64`, `ARM64`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5guo.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5guo.zip)
 
-## Citation
+### Resource Consumption
 
-If you use this model, please cite the [original authors](https://pubs.acs.org/doi/10.1021/ci050457y) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
 
-## License
+### References
+- **Source Code**: [https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html](https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html)
+- **Publication**: [https://pubs.acs.org/doi/10.1021/ci050457y](https://pubs.acs.org/doi/10.1021/ci050457y)
+- **Publication Type:** `Peer reviewed`
+- **Publication Year:** `2005`
+- **Ersilia Contributor:** [GemmaTuron](https://github.com/GemmaTuron)
 
-This package is licensed under a GPL-3.0 license. The model contained within this package is licensed under a BSD-3.0 license.
+### License
+This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [BSD-3-Clause](LICENSE) license.
 
-Notice: Ersilia grants access to these models 'as is' provided by the original authors, please refer to the original code repository and/or publication if you use the model in your research.
+**Notice**: Ersilia grants access to models _as is_, directly from the original authors, please refer to the original code repository and/or publication if you use the model in your research.
 
-## About Us
 
-The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization ([1192266](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170657/full-print)) with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
+## Use
+To use this model locally, you need to have the [Ersilia CLI](https://github.com/ersilia-os/ersilia) installed.
+The model can be **fetched** using the following command:
+```bash
+# fetch model from the Ersilia Model Hub
+ersilia fetch eos5guo
+```
+Then, you can **serve**, **run** and **close** the model as follows:
+```bash
+# serve the model
+ersilia serve eos5guo
+# generate an example file
+ersilia example -n 3 -f my_input.csv
+# run the model
+ersilia run -i my_input.csv -o my_output.csv
+# close the model
+ersilia close
+```
 
-[Help us](https://www.ersilia.io/donate) achieve our mission!
+## About Ersilia
+The [Ersilia Open Source Initiative](https://ersilia.io) is a tech non-profit organization fueling sustainable research in the Global South.
+Please [cite](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff) the Ersilia Model Hub if you've found this model to be useful. Always [let us know](https://github.com/ersilia-os/ersilia/issues) if you experience any issues while trying to run it.
+If you want to contribute to our mission, consider [donating](https://www.ersilia.io/donate) to Ersilia!
