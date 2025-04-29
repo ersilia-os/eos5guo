@@ -3,21 +3,18 @@
     "Slug": "erg-fingerprints",
     "Status": "Ready",
     "Title": "ErG 2D Descriptors",
-    "Description": "The Extended Reduced Graph (ErG) approach uses the description of pharmacophore nodes to encode molecular properties, with the goal of correctly describing pharmacophoric properties, size and shape of molecules. It was benchmarked against Daylight fingerprints and outperformed them in 10 out of 11 cases. ErG descriptors are well suited for scaffold hopping approaches.\n",
+    "Description": "The Extended Reduced Graph (ErG) approach uses the description of pharmacophore nodes to encode molecular properties, with the goal of correctly describing pharmacophoric properties, size and shape of molecules. It was benchmarked against Daylight fingerprints and outperformed them in 10 out of 11 cases. ErG descriptors are well suited for scaffold hopping approaches.",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Representation",
+    "Subtask": "Featurization",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Representation",
-    "Subtask": "Featurization",
-    "Biomedical Area": [
-        "Any"
-    ],
-    "Target Organism": [
-        "Not Applicable"
-    ],
     "Output": [
         "Value"
     ],
@@ -28,20 +25,23 @@
         "Descriptor",
         "Fingerprint"
     ],
-    "Publication": "https://pubs.acs.org/doi/10.1021/ci050457y",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2005,
+    "Publication": "https://pubs.acs.org/doi/10.1021/ci050457y",
     "Source Code": "https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html",
     "License": "BSD-3-Clause",
     "Contributor": "GemmaTuron",
     "Incorporation Date": "2024-03-06",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5guo.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos5guo",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
-    ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5guo.zip",
-    "Deployment": [
-        "Local"
     ]
 }
