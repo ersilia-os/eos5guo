@@ -50,8 +50,12 @@ _10 of 315 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `495`
-- **Image Size (Mb):** `429.94`
+- **Image Size (Mb):** `429.99`
 
+**Computational Performance (seconds):**
+- 10 inputs: `29.51`
+- 100 inputs: `19.44`
+- 10000 inputs: `210.61`
 
 ### References
 - **Source Code**: [https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html](https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html)
