@@ -52,10 +52,6 @@ _10 of 315 columns are shown_
 - **Environment Size (Mb):** `494`
 - **Image Size (Mb):** `429.94`
 
-**Computational Performance (seconds):**
-- 4 inputs: `29.47`
-- 20 inputs: `19.22`
-- 100 inputs: `19.43`
 
 ### References
 - **Source Code**: [https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html](https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html)
