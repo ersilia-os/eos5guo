@@ -38,6 +38,8 @@
     "License": "BSD-3-Clause",
     "Contributor": "GemmaTuron",
     "Incorporation Date": "2024-03-06",
+    "Last Packaging Date": "2025-10-23",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5guo.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos5guo",
     "Docker Architecture": [
@@ -46,11 +48,11 @@
     ],
     "Model Size": 1.0,
     "Environment Size": 514.0,
-    "Image Size": 429.99,
-    "Computational Performance 1": 29.51,
-    "Computational Performance 2": 19.22,
-    "Computational Performance 3": 19.44,
-    "Computational Performance 4": 53.89,
-    "Computational Performance 5": 210.61,
+    "Image Size": 522.66,
+    "Computational Performance 1": 27.3,
+    "Computational Performance 2": 16.92,
+    "Computational Performance 3": 17.04,
+    "Computational Performance 4": 19.91,
+    "Computational Performance 5": 32.05,
     "Docker Pack Method": "FastAPI"
 }
