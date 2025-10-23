@@ -4,6 +4,7 @@ The Extended Reduced Graph (ErG) approach uses the description of pharmacophore 
 
 This model was incorporated on 2024-03-06.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos5guo`
@@ -13,7 +14,7 @@ This model was incorporated on 2024-03-06.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Descriptor`, `Fingerprint`
 
 ### Input
