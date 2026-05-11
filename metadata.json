@@ -1,7 +1,7 @@
 {
     "Identifier": "eos5guo",
     "Slug": "erg-fingerprints",
-    "Status": "Ready",
+    "Status": "In maintenance",
     "Title": "ErG 2D Descriptors",
     "Description": "The Extended Reduced Graph (ErG) approach uses the description of pharmacophore nodes to encode molecular properties, with the goal of correctly describing pharmacophoric properties, size and shape of molecules. It was benchmarked against Daylight fingerprints and outperformed them in 10 out of 11 cases. ErG descriptors are well suited for scaffold hopping approaches.",
     "Deployment": [
