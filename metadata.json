@@ -33,7 +33,7 @@
     ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2005,
-    "Publication": "https://pubs.acs.org/doi/10.1021/ci050457y",
+    "Publication": "https://doi.org/10.1021/ci050457y",
     "Source Code": "https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html",
     "License": "BSD-3-Clause",
     "Contributor": "GemmaTuron",
