@@ -59,7 +59,7 @@ _10 of 315 columns are shown_
 
 ### References
 - **Source Code**: [https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html](https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html)
-- **Publication**: [https://pubs.acs.org/doi/10.1021/ci050457y](https://pubs.acs.org/doi/10.1021/ci050457y)
+- **Publication**: [https://doi.org/10.1021/ci050457y](https://doi.org/10.1021/ci050457y)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2005`
 - **Ersilia Contributor:** [GemmaTuron](https://github.com/GemmaTuron)
