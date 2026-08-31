@@ -28,16 +28,16 @@ This model was incorporated on 2024-03-06.Last packaged on 2025-10-23.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| dim_000 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 0 |
-| dim_001 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 1 |
-| dim_002 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 2 |
-| dim_003 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 3 |
-| dim_004 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 4 |
-| dim_005 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 5 |
-| dim_006 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 6 |
-| dim_007 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 7 |
-| dim_008 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 8 |
-| dim_009 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 9 |
+| feat_000 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 0 |
+| feat_001 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 1 |
+| feat_002 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 2 |
+| feat_003 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 3 |
+| feat_004 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 4 |
+| feat_005 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 5 |
+| feat_006 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 6 |
+| feat_007 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 7 |
+| feat_008 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 8 |
+| feat_009 | float |  | Extended reduced graph (ErG) pharmacophore descriptor bit index 9 |
 
 _10 of 315 columns are shown_
 ### Source and Deployment
