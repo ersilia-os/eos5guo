@@ -2,7 +2,7 @@
 
 The Extended Reduced Graph (ErG) approach uses the description of pharmacophore nodes to encode molecular properties, with the goal of correctly describing pharmacophoric properties, size and shape of molecules. It was benchmarked against Daylight fingerprints and outperformed them in 10 out of 11 cases. ErG descriptors are well suited for scaffold hopping approaches.
 
-This model was incorporated on 2024-03-06.Last packaged on 2025-10-23.
+This model was incorporated on 2024-03-06.Last packaged on 2026-08-31.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 315 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `501`
-- **Image Size (Mb):** `522.66`
+- **Image Size (Mb):** `546.58`
 
 **Computational Performance (seconds):**
-- 10 inputs: `27.3`
-- 100 inputs: `17.04`
-- 10000 inputs: `32.05`
+- 10 inputs: `30.26`
+- 100 inputs: `20.07`
+- 10000 inputs: `29.74`
 
 ### References
 - **Source Code**: [https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html](https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html)
