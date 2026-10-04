@@ -1,6 +1,6 @@
 # ErG 2D Descriptors
 
-The Extended Reduced Graph (ErG) approach uses the description of pharmacophore nodes to encode molecular properties, with the goal of correctly describing pharmacophoric properties, size and shape of molecules. It was benchmarked against Daylight fingerprints and outperformed them in 10 out of 11 cases. ErG descriptors are well suited for scaffold hopping approaches.
+Reduces a molecule to 315 numbers describing pharmacophoric features and the topological distances between them, deliberately discarding atomic detail. Stiefl and colleagues at Eli Lilly built ErG for scaffold hopping: by representing only which functional groups are present and how far apart they sit, two molecules built on unrelated skeletons can register as similar if they display the same features in the same arrangement. The abstraction that makes this possible also means fine structural differences are invisible.
 
 This model was incorporated on 2024-03-06.Last packaged on 2026-08-31.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2024-03-06.Last packaged on 2026-08-31.
 ### Output
 - **Output Dimension:** `315`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Vector representing ErG fingerprint values
+- **Interpretation:** 315 descriptors encoding pharmacophore features and their topological separations.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
