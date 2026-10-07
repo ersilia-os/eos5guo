@@ -1,6 +1,6 @@
 # ErG 2D Descriptors
 
-Reduces a molecule to 315 numbers describing pharmacophoric features and the topological distances between them, deliberately discarding atomic detail. Stiefl and colleagues at Eli Lilly built ErG for scaffold hopping: by representing only which functional groups are present and how far apart they sit, two molecules built on unrelated skeletons can register as similar if they display the same features in the same arrangement. The abstraction that makes this possible also means fine structural differences are invisible.
+Reduces a molecule to 315 numbers describing pharmacophoric features and the topological distances between them, deliberately discarding atomic detail. Stiefl and colleagues at Eli Lilly built the extended reduced graph for scaffold hopping, so that molecules on unrelated skeletons register as similar when they display the same features in the same arrangement. Across 11 activity classes from the MDDR database it performed as well as or better than Daylight fingerprints in 10. The same abstraction leaves fine structural differences invisible.
 
 This model was incorporated on 2024-03-06.Last packaged on 2026-08-31.
 
