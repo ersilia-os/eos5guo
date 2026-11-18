@@ -2,7 +2,8 @@
 
 Reduces a molecule to 315 numbers describing pharmacophoric features and the topological distances between them, deliberately discarding atomic detail. Stiefl and colleagues at Eli Lilly built the extended reduced graph for scaffold hopping, so that molecules on unrelated skeletons register as similar when they display the same features in the same arrangement. Across 11 activity classes from the MDDR database it performed as well as or better than Daylight fingerprints in 10. The same abstraction leaves fine structural differences invisible.
 
-This model was incorporated on 2024-03-06.Last packaged on 2026-08-31.
+This model was incorporated on 2024-03-06.
+Last packaged on 2026-08-31.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 315 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5guo](https://hub.docker.com/r/ersiliaos/eos5guo)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5guo.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5guo.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos5guo_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos5guo_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
